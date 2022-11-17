@@ -28,19 +28,26 @@ def show_time(func):
     return times, res
 
 def run_cuda():
-    if args.compiler == 'jit':
-        cuda_module.torch_launch_add2(cuda_c, a, b, n)
-    elif args.compiler == 'setup':
-        add2.torch_launch_add2(cuda_c, a, b, n)
-    elif args.compiler == 'cmake':
-        torch.ops.add2.torch_launch_add2(cuda_c, a, b, n)
-    else:
-        raise Exception("Type of cuda compiler must be one of jit/setup/cmake.")
+    for _ in range(1000):
+        if args.compiler == 'jit':
+            cuda_module.torch_launch_add2(cuda_c, a, b, n)
+        elif args.compiler == 'setup':
+            add2.torch_launch_add2(cuda_c, a, b, n)
+        elif args.compiler == 'cmake':
+            torch.ops.add2.torch_launch_add2(cuda_c, a, b, n)
+        else:
+            raise Exception("Type of cuda compiler must be one of jit/setup/cmake.")
 
     return cuda_c
 
 def run_torch():
-    c = a + b
+    for _ in range(1000):
+        c = a + b
+    return c.contiguous()
+    
+def run_torch_cpu():
+    for _ in range(1000):
+        c = a + b
     return c.contiguous()
 
 if __name__ == "__main__":
@@ -71,3 +78,10 @@ if __name__ == "__main__":
 
     torch.allclose(cuda_res, torch_res)
     print("Kernel test passed.")
+    
+    a = a.to("cpu")
+    b = b.to("cpu")
+    print("Running torch cpu...")
+    torch_time, torch_res = show_time(run_torch_cpu)
+    print("Torch cpu time:  {:.3f}us".format(np.mean(torch_time)))
+

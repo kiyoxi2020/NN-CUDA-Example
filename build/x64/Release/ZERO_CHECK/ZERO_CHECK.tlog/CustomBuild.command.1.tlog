@@ -1,0 +1,10 @@
+^E:\STUDY\PYTORCH-CUDA\NN-CUDA-EXAMPLE\BUILD\CMAKEFILES\1E00F2B550FBB16CF2479A26FF960281\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Study/pytorch-cuda/NN-CUDA-Example/pytorch -BE:/Study/pytorch-cuda/NN-CUDA-Example/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Study/pytorch-cuda/NN-CUDA-Example/build/add2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

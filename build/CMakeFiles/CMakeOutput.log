@@ -1,0 +1,210 @@
+The system is: Windows - 10.0.19041 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2022/11/18 0:10:16。
+节点 1 上的项目“E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdCXX.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCXX\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.43
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/3.25.0-rc4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+Compiler: /usr/local/cuda/bin/nvcc 
+Build flags: 
+Id flags: --keep;--keep-dir;tmp -v
+
+The output was:
+0
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2022/11/18 0:10:17。
+节点 1 上的项目“E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CompilerIdCUDA.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdCUDA.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCUDA.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+AddCudaCompileDeps:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D__CUDACC_VER_MAJOR__=11 /D__CUDACC_VER_MINOR__=7 /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" /I. /FIcuda_runtime.h /c E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CMakeCUDACompilerId.cu 
+项目“E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CompilerIdCUDA.vcxproj”(1)正在节点 1 上生成“E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CompilerIdCUDA.vcxproj”(1:2) (CudaBuildCore 个目标)。
+CudaBuildCore:
+  Compiling CUDA source file CMakeCUDACompilerId.cu...
+  正在创建目录“E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\x64\Debug”。
+  cmd.exe /C "C:\Users\wyq\AppData\Local\Temp\tmp0811f2e24dac483cb4f85a50b5bf4007.cmd"
+  "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\x64\Debug\CMakeCUDACompilerId.cu.obj "E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CMakeCUDACompilerId.cu"
+  
+  (torch) E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -v -g  -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FdDebug\vc142.pdb /FS /Zi /RTC1 /MDd " -o E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\x64\Debug\CMakeCUDACompilerId.cu.obj "E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CMakeCUDACompilerId.cu" 
+  #$ _NVVM_BRANCH_=nvvm
+  #$ _SPACE_= 
+  #$ _CUDART_=cudart
+  #$ _HERE_=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin
+  #$ _THERE_=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin
+  #$ _TARGET_SIZE_=
+  #$ _TARGET_DIR_=
+  #$ _TARGET_SIZE_=64
+  #$ _WIN_PLATFORM_=x64
+  #$ TOP=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin/..
+  #$ NVVMIR_LIBRARY_DIR=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin/../nvvm/libdevice
+  #$ PATH=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin/../nvvm/bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin/../lib;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64;C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319\;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;;C:\Users\wyq\.conda\envs\torch;C:\Users\wyq\.conda\envs\torch\Library\mingw-w64\bin;C:\Users\wyq\.conda\envs\torch\Library\usr\bin;C:\Users\wyq\.conda\envs\torch\Library\bin;C:\Users\wyq\.conda\envs\torch\Scripts;C:\Users\wyq\.conda\envs\torch\bin;C:\ProgramData\Anaconda3\condabin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\libnvvp;C:\VulkanSDK\1.3.231.1\Bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86;C:\Program Files\Git\cmd;C:\Program Files\CMake\bin;C:\Program Files\dotnet;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.2.1;C:\Users\wyq\AppData\Local\Microsoft\WindowsApps;C:\Users\wyq\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Users\wyq\.dotnet\tools;
+  #$ INCLUDES="-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin/../include"  
+  #$ LIBRARIES=  "/LIBPATH:C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin/../lib/x64"
+  #$ CUDAFE_FLAGS=--sdk_dir "C:\Program Files (x86)\Windows Kits\10"
+  #$ PTXAS_FLAGS=
+  CMakeCUDACompilerId.cu
+  #$ cl.exe @"C:\Users\wyq\AppData\Local\Temp/tmpxft_00001f80_00000000-9.res" > "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-8_CMakeCUDACompilerId.cpp1.ii" 
+  CMakeCUDACompilerId.cu
+  #$ erase C:\Users\wyq\AppData\Local\Temp/tmpxft_00001f80_00000000-9.res
+  #$ cicc --microsoft_version=1929 --msvc_target_version=1929 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/3.25.0-rc4/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\Program Files (x86)\Windows Kits\10"  -arch compute_52 -m64 --no-version-ident -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00001f80_00000000-4_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused --gen_module_id_file --module_id_file_name "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-5_CMakeCUDACompilerId.module_id" --gen_c_file_name "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-7_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-7_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-8_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-7_CMakeCUDACompilerId.ptx"
+  #$ ptxas -arch=sm_52 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-7_CMakeCUDACompilerId.ptx"  -o "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-10_CMakeCUDACompilerId.sm_52.cubin" 
+  #$ fatbinary -64 --ident="E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/3.25.0-rc4/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " --cicc-cmdline="-ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 " -g "--image3=kind=elf,sm=52,file=C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-10_CMakeCUDACompilerId.sm_52.cubin" "--image3=kind=ptx,sm=52,file=C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-7_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-4_CMakeCUDACompilerId.fatbin.c" 
+  #$ erase C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-4_CMakeCUDACompilerId.fatbin
+  #$ cl.exe @"C:\Users\wyq\AppData\Local\Temp/tmpxft_00001f80_00000000-11.res" > "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+  CMakeCUDACompilerId.cu
+  #$ erase C:\Users\wyq\AppData\Local\Temp/tmpxft_00001f80_00000000-11.res
+  #$ cudafe++ --microsoft_version=1929 --msvc_target_version=1929 --compiler_bindir "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/../../../../../../.." --display_error_number --orig_src_file_name "E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/3.25.0-rc4/CompilerIdCUDA/CMakeCUDACompilerId.cu" --orig_src_path_name "E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CMakeCUDACompilerId.cu" --allow_managed --debug_mode --sdk_dir "C:\Program Files (x86)\Windows Kits\10" --m64 --parse_templates --gen_c_file_name "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-7_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00001f80_00000000-7_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-5_CMakeCUDACompilerId.module_id" "C:/Users/wyq/AppData/Local/Temp/tmpxft_00001f80_00000000-6_CMakeCUDACompilerId.cpp4.ii" 
+  #$ cl.exe @"C:\Users\wyq\AppData\Local\Temp/tmpxft_00001f80_00000000-12.res" -Fo"E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/3.25.0-rc4/CompilerIdCUDA/x64/Debug/CMakeCUDACompilerId.cu.obj" 
+  tmpxft_00001f80_00000000-7_CMakeCUDACompilerId.cudafe1.cpp
+  #$ erase C:\Users\wyq\AppData\Local\Temp/tmpxft_00001f80_00000000-12.res
+已完成生成项目“E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CompilerIdCUDA.vcxproj”(CudaBuildCore 个目标)的操作。
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\lib\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCUDA.lib" /MACHINE:X64 "E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\x64\Debug\CMakeCUDACompilerId.cu.obj"
+    正在创建库 .\CompilerIdCUDA.lib 和对象 .\CompilerIdCUDA.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CompilerIdCUDA.vcxproj]
+  CompilerIdCUDA.vcxproj -> E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CompilerIdCUDA.exe
+PostBuildEvent:
+  echo CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe
+  :VCEnd
+  CMAKE_CUDA_COMPILER=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCUDA.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCUDA.tlog\CompilerIdCUDA.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CompilerIdCUDA.vcxproj”(默认目标)的操作。
+
+已成功生成。
+
+“E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CompilerIdCUDA.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\3.25.0-rc4\CompilerIdCUDA\CompilerIdCUDA.vcxproj]
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.28
+
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+
+Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+
+The CUDA compiler identification is NVIDIA, found in "E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/3.25.0-rc4/CompilerIdCUDA/CompilerIdCUDA.exe"
+
+Parsed CUDA nvcc include information from above output:
+  found 'INCLUDES=' string: ["-IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin/../include"  ]
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/CMakeScratch/TryCompile-ok7epi
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b228a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CMakeCXXCompilerABI.cpp
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b228a.dir\Debug\\" /Fd"cmTC_b228a.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_b228a.vcxproj -> E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-ok7epi\Debug\cmTC_b228a.exe
+
+
+
+Detecting CUDA compiler ABI info compiled with the following output:
+Change Dir: E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/CMakeScratch/TryCompile-a4mpaw
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_43c7f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  Compiling CUDA source file C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCUDACompilerABI.cu...
+  
+  (torch) E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"     --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W3 /nologo /Od /FdcmTC_43c7f.dir\Debug\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_43c7f.dir\Debug\CMakeCUDACompilerABI.obj "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCUDACompilerABI.cu" 
+cl : 命令行 warning D9002: 忽略未知选项“-v” [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\cmTC_43c7f.vcxproj]
+cl : 命令行 warning D9002: 忽略未知选项“-v” [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\cmTC_43c7f.vcxproj]
+  CMakeCUDACompilerABI.cu
+cl : 命令行 warning D9002: 忽略未知选项“-v” [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\cmTC_43c7f.vcxproj]
+LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\cmTC_43c7f.vcxproj]
+    正在创建库 E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/CMakeScratch/TryCompile-a4mpaw/Debug/cmTC_43c7f.lib 和对象 E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/CMakeScratch/TryCompile-a4mpaw/Debug/cmTC_43c7f.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\cmTC_43c7f.vcxproj]
+  cmTC_43c7f.vcxproj -> E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\Debug\cmTC_43c7f.exe
+
+
+
+Parsed CUDA implicit include dir info from above output: rv=start
+  warn: unable to parse implicit include dirs!
+
+
+Parsed CUDA implicit link information from above output:
+  link line regex: [^( *|.*[/\])(link\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/CMakeScratch/TryCompile-a4mpaw]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_43c7f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642]
+  ignore line: [版权所有(C) Microsoft Corporation。保留所有权利。]
+  ignore line: []
+  ignore line: [  Compiling CUDA source file C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCUDACompilerABI.cu...]
+  ignore line: [  ]
+  ignore line: [  (torch) E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe"  --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64" -x cu    -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"     --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g  -D_WINDOWS -D"CMAKE_INTDIR=\"Debug\"" -D_MBCS -D"CMAKE_INTDIR=\"Debug\"" -Xcompiler "/EHsc /W3 /nologo /Od /FdcmTC_43c7f.dir\Debug\vc142.pdb /FS /Zi /RTC1 /MDd /GR" -o cmTC_43c7f.dir\Debug\CMakeCUDACompilerABI.obj "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCUDACompilerABI.cu" ]
+  ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\cmTC_43c7f.vcxproj]]
+  ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\cmTC_43c7f.vcxproj]]
+  ignore line: [  CMakeCUDACompilerABI.cu]
+  ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\cmTC_43c7f.vcxproj]]
+  ignore line: [LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\cmTC_43c7f.vcxproj]]
+  ignore line: [    正在创建库 E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/CMakeScratch/TryCompile-a4mpaw/Debug/cmTC_43c7f.lib 和对象 E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/CMakeScratch/TryCompile-a4mpaw/Debug/cmTC_43c7f.exp]
+  ignore line: [LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library [E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\cmTC_43c7f.vcxproj]]
+  ignore line: [  cmTC_43c7f.vcxproj -> E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\CMakeScratch\TryCompile-a4mpaw\Debug\cmTC_43c7f.exe]
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+

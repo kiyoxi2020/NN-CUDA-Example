@@ -1,0 +1,10 @@
+^E:\STUDY\PYTORCH-CUDA\NN-CUDA-EXAMPLE\PYTORCH\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Study/pytorch-cuda/NN-CUDA-Example/pytorch -BE:/Study/pytorch-cuda/NN-CUDA-Example/build --check-stamp-file E:/Study/pytorch-cuda/NN-CUDA-Example/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

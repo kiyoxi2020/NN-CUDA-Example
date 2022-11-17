@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Study\pytorch-cuda\NN-CUDA-Example\build\CMakeFiles\1e00f2b550fbb16cf2479a26ff960281\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C7B42C43-D278-36B8-B7A6-4F44FB62DFB7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
